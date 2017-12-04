@@ -7,7 +7,7 @@ package Uri1045;
 
 /**
  *
- * @author felipe.reblin
+ * @author jefersongit
  */
 public class DefinirTriangulo {
     public String verifica(double a, double b , double c){

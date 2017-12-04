@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author felipe.reblin
+ * @author jefersongit
  */
 public class PumTest {
     
@@ -22,6 +22,9 @@ public class PumTest {
      */
     @Test
     public void testGerarSequencia() {
+        Pum pum = new Pum();
+        String experado = "1 2 3 PUM\n";
+        assertEquals(experado, pum.gerarSequencia(1));
     }
     
 }

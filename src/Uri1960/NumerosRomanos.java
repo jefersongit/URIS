@@ -7,7 +7,7 @@ package Uri1960;
 
 /**
  *
- * @author felipe.reblin
+ * @author jefersongit
  */
 public class NumerosRomanos {
      public String getRomanos(String numeroS){

@@ -9,19 +9,21 @@ import java.util.Scanner;
 
 /**
  *
- * @author felipe.reblin
+ * @author jefersongit
  */
 public class Pum {
-        public void gerarSequencia(int numero){
+        public String gerarSequencia(int numero){
         int cont = 0;
+        String retorno = "";
             for(int j = 1; j <= (numero * 4); j++){
-                System.out.print(j+" ");
+                retorno += j+" ";
                 cont++;
                 if(cont == 3){
                     j++;
-                    System.out.println("PUM ");
+                    retorno += "PUM ";
                     cont = 0;
                 }
             }
+            return retorno;
         }
 }

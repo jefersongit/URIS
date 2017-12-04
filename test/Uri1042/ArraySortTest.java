@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author felipe.reblin
+ * @author jefersongit
  */
 public class ArraySortTest {
     

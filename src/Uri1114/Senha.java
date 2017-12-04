@@ -7,7 +7,7 @@ package Uri1114;
 
 /**
  *
- * @author felipe.reblin
+ * @author jefersongit
  */
 public class Senha {
     public boolean verificaSenha(int senha){

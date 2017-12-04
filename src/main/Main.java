@@ -14,10 +14,11 @@ import Uri1789.Uri1789;
 import Uri1960.Uri1960;
 import Uri2031.Uri2031;
 import Uri2167.Uri2167;
+import Uri2582.Uri2582;
 
 /**
  *
- * @author felipe.reblin
+ * @author jefersongit
  */
 public class Main {
 
@@ -51,11 +52,9 @@ public class Main {
                 Uri2031.run();
             case "2167":
                 Uri2167.run();
-                
-                   
+            case "2582":
+                Uri2582.run();
         }
-        
-        
         
     }
     

@@ -1,31 +1,31 @@
+package Uri1960;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Uri1151;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
  *
- * @author jefersongit
+ * @author jeferson.guesser
  */
-public class FibonacciTest {
+public class NumerosRomanosTest {
     
-    public FibonacciTest() {
+    public NumerosRomanosTest() {
     }
 
     /**
-     * Test of gerarFibonacci method, of class Fibonacci.
+     * Test of getRomanos method, of class NumerosRomanos.
      */
     @Test
-    public void testGerarFibonacci() {
-        Fibonacci fibonacci = new Fibonacci();
-        String experado = "55 ";
-        String result = fibonacci.gerarFibonacci(11);
+    public void testGetRomanos() {
+        NumerosRomanos num = new NumerosRomanos();
+        String experado = "IX";
+        String result = num.getRomanos("9");
         assertEquals(experado, result);
     }
-    
 }

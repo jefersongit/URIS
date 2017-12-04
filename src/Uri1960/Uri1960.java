@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author felipe.reblin
+ * @author jefersongit
  */
 public class Uri1960 {
     public static void run() {

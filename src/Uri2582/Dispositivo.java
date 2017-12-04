@@ -11,44 +11,46 @@ package Uri2582;
  */
 public class Dispositivo {
     
-    public void botoes (int num1, int num2){
+    public String botoes (int num1, int num2){        
+        String retorno = "";
         int soma = num1 + num2;
         
         switch (soma){
             case 0:
-                System.out.print("PROXYCITY");
+                retorno = "PROXYCITY";
                 break;
             case 1:
-                System.out.print("P.Y.N.G.");
+                retorno = "P.Y.N.G.";
                 break;
             case 2:
-                System.out.print("DNSUEY!");
+                retorno = "DNSUEY!";
                 break;
             case 3:
-                System.out.print("SERVERS");
+                retorno = "SERVERS";
                 break;
             case 4:
-                System.out.print("HOST!");
+                retorno = "HOST!";
                 break;
             case 5:
-                System.out.print("CRIPTONIZE");
+                retorno = "CRIPTONIZE";
                 break;
             case 6:
-                System.out.print("OFFLINE DAY");
+                retorno = "OFFLINE DAY";
                 break;
             case 7:
-                System.out.print("SALT");
+                retorno = "SALT";
                 break;
             case 8:
-                System.out.print("ANSWER!");
+                retorno = "ANSWER!";
                 break;
             case 9:
-                System.out.print("RAR?");
+                retorno = "RAR?";
                 break;
             case 10:
-                System.out.print("WIFI ANTENNAS");
+                retorno = "WIFI ANTENNAS";
                 break;
         }
+        return retorno;
     }
 }
     
